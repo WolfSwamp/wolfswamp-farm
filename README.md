@@ -3,7 +3,12 @@
 This is a part of chapter 1 of DarkAgeOfBeast.
 
 You can find more information on our website :
+
 https://wolfswamp.daob.finance
+
+or on the DarkAgeOfBeast Plateform:
+
+https://daob.finance
 
 ## Smart contracts of WolfSwamp Farm :
 
