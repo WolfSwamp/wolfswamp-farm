@@ -1,0 +1,36 @@
+{
+  "name": "wolfswamp-farm",
+  "version": "1.0.0",
+  "description": "WolfSwamp Farming Smart Contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle console --network test",
+    "git-upload": "git add . && git commit -m \"new commit\" && git push -u origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WolfSwamp/wolfswamp-farm.git"
+  },
+  "keywords": [
+    "yield-farming",
+    "wolfswamp",
+    "farming",
+    "crypto"
+  ],
+  "author": "MrRise",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WolfSwamp/wolfswamp-farm/issues"
+  },
+  "homepage": "https://github.com/WolfSwamp/wolfswamp-farm#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "dotenv": "^10.0.0",
+    "truffle-contract-size": "^2.0.1",
+    "web3": "^1.4.0"
+  }
+}
